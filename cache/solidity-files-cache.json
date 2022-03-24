@@ -35,6 +35,7 @@
       "artifacts": [
         "Box"
       ]
+<<<<<<< HEAD
     },
     "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\HelloWorld.sol": {
       "lastModificationDate": 1648128919529,
@@ -70,6 +71,8 @@
       "artifacts": [
         "HelloWorld"
       ]
+=======
+>>>>>>> 138390905b1a806f29b9d39a0f002a18f5779c15
     }
   }
 }
