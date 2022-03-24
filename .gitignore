@@ -1,4 +1,6 @@
+artifacts
 node_modules
 package-lock.json
 package.json
-
+settings
+practice.js
