@@ -71,6 +71,7 @@
         "HelloWorld"
       ]
 <<<<<<< HEAD
+<<<<<<< HEAD
     },
     "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\ValueTypes.sol": {
       "lastModificationDate": 1648219869960,
@@ -176,6 +177,8 @@
       "artifacts": [
         "IntroToFunctions"
       ]
+=======
+>>>>>>> f67fb5259b3fb419b1609a69bea145df95918cbe
 =======
 >>>>>>> f67fb5259b3fb419b1609a69bea145df95918cbe
     }
