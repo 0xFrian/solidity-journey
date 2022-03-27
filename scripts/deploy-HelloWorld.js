@@ -2,7 +2,7 @@ const { ethers } = require("hardhat");
 
 async function main() {
     const [deployer] = await ethers.getSigners(); 
-    const contractName = "Box"; 
+    const contractName = "HelloWorld"; 
     const contractFactory = await ethers.getContractFactory(contractName); 
     
     console.log();
@@ -41,12 +41,11 @@ main()
 // PS C:\Users\brian\Desktop\Coding\solidity-journey> npx hardhat run .\scripts\deploy-HelloWorld.js --network ropsten
 
 // ============== STATUS ==============
-// Deploying Box contract...
-//   ✓ Box contract deployed to: 0x8C738E23d46DA3A5e7d3f2eE4BD9a6F0fe390F95
+// Deploying HelloWorld contract...
+//   ✓ HelloWorld contract deployed to: 0x84e03BC82c9623F85FE980e1532281Fd6e817406
 
 // ============== LOGISTICS ==============
 // Deployer Address: 0x0F49C3aB5dABF804a06B5762c7B4Ed145821c8D9
-// Deployer Balance: 23.6910 ETH
+// Deployer Balance: 23.6444 ETH
 // Block:  null
-// Nonce:  102
-
+// Nonce:  103
