@@ -37,7 +37,7 @@ async function main() {
     console.log("  * " + `hash: ${inc_Tx.hash}`);
     console.log("  * " + `nonce: ${inc_Tx.nonce}`);
     console.log("  * " + `value: ${inc_Tx.value}`);
-    console.log("inc_Tx: "); 
+    console.log("dec_Tx: "); 
     console.log("  * " + `hash: ${dec_Tx.hash}`);
     console.log("  * " + `nonce: ${dec_Tx.nonce}`);
     console.log("  * " + `value: ${dec_Tx.value}`);
