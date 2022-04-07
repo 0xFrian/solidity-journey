@@ -47,3 +47,18 @@ main()
 // Deployer Balance: 23.5464 ETH
 // Block:  null
 // Nonce:  104
+
+// =======================
+// ||       Output      ||
+// =======================
+// PS C:\Users\brian\Desktop\Coding\solidity-journey> npx hardhat run .\scripts\deploy-ValueTypes.js --network rinkeby
+
+// ============== STATUS ==============
+// Deploying ValueTypes contract...
+//   ✓ ValueTypes contract deployed to: 0xb4df27f5C83d4Ec83a331A6525477951d5fdC760
+
+// ============== LOGISTICS ==============
+// Deployer Address: 0x0F49C3aB5dABF804a06B5762c7B4Ed145821c8D9
+// Deployer Balance: 134.1954 ETH
+// Block:  null
+// Nonce:  24

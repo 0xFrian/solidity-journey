@@ -72,8 +72,8 @@
       ]
     },
     "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\ValueTypes.sol": {
-      "lastModificationDate": 1648219869960,
-      "contentHash": "330bb59c1997fea4da3d4bc6eb31badc",
+      "lastModificationDate": 1649363330662,
+      "contentHash": "b5a605d26f2503606cab1fd541703c87",
       "sourceName": "contracts/ValueTypes.sol",
       "solcConfig": {
         "version": "0.8.7",
@@ -107,8 +107,8 @@
       ]
     },
     "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\BasicCounter.sol": {
-      "lastModificationDate": 1648327468062,
-      "contentHash": "15d699d967d31edf0e7ac8969db20ef3",
+      "lastModificationDate": 1649360298835,
+      "contentHash": "0ba63b5864213b2db605a129e6d96fee",
       "sourceName": "contracts/BasicCounter.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -174,6 +174,41 @@
       ],
       "artifacts": [
         "IntroToFunctions"
+      ]
+    },
+    "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\DefaultValues.sol": {
+      "lastModificationDate": 1649361553193,
+      "contentHash": "b62d007e37deaa44a9b50861ba2533c3",
+      "sourceName": "contracts/DefaultValues.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "DefaultValues"
       ]
     }
   }

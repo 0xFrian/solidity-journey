@@ -12,3 +12,4 @@ contract ValueTypes {
     bytes32 public myB32 = 0x46d5403d397ddf9c874297be45c9e7e6e10d68872fd71a14e75b3d268f6f7842;
     // myB32 corresponds to the transaction hash of our HelloWorld contract
 }
+
