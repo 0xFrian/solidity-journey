@@ -12,18 +12,3 @@ contract ValueTypes {
     bytes32 public myB32 = 0x46d5403d397ddf9c874297be45c9e7e6e10d68872fd71a14e75b3d268f6f7842;
     // myB32 corresponds to the transaction hash of our HelloWorld contract
 }
-
-// =======================
-// ||       Output      ||
-// =======================
-// PS C:\Users\brian\Desktop\Coding\solidity-journey> npx hardhat run .\scripts\deploy-ValueTypes.js --network ropsten
-
-// ============== STATUS ==============
-// Deploying ValueTypes contract...
-//   ✓ ValueTypes contract deployed to: 0xd34765825D973819Acb4337BBC131Fb8082a7b27
-
-// ============== LOGISTICS ==============
-// Deployer Address: 0x0F49C3aB5dABF804a06B5762c7B4Ed145821c8D9
-// Deployer Balance: 23.5464 ETH
-// Block:  null
-// Nonce:  104
