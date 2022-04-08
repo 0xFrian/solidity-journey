@@ -246,6 +246,41 @@
         "Constants",
         "NotConstants"
       ]
+    },
+    "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\IfElse.sol": {
+      "lastModificationDate": 1649393975152,
+      "contentHash": "4c12e5248cd8ecca87a7f2bb514b6f4e",
+      "sourceName": "contracts/IfElse.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "IfElse"
+      ]
     }
   }
 }
