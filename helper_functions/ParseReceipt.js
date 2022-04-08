@@ -1,4 +1,4 @@
-const { COLORS, CHECK, highlight } = require("../helper_functions/Colors");
+const { highlight } = require("../helper_functions/Colors");
 
 const parseReceipt = (name, receipt) => {
     console.log(`Transaction Receipt for ${highlight(name, "yellow")} contract: `);
