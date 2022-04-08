@@ -7,7 +7,7 @@ const COLORS = {
     "g" : "\x1b[32m"
 }
 const RESET = "\x1b[0m";
-const CHECK = COLORS["g"] + "✓" + RESET + " "; 
+const CHECK = "  " + COLORS["g"] + "✓" + RESET + " "; 
 
 const highlight = (msg, color) => {
     highlighted_msg = COLORS[color] + msg + RESET;
