@@ -210,6 +210,42 @@
       "artifacts": [
         "DefaultValues"
       ]
+    },
+    "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\Constants.sol": {
+      "lastModificationDate": 1649369093393,
+      "contentHash": "89d14d6bf19a00e4c636c737320c9f71",
+      "sourceName": "contracts/Constants.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "Constants",
+        "NotConstants"
+      ]
     }
   }
 }
