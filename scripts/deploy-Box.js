@@ -1,4 +1,6 @@
 const { ethers } = require("hardhat");
+const { CHECK, highlight } = require("../helper_functions/Colors");
+const { parseReceipt } = require("../helper_functions/parseReceipt");
 
 async function main() {
     const [deployer] = await ethers.getSigners();
@@ -7,33 +9,42 @@ async function main() {
     
     console.log();
     console.log("==============" + " STATUS " + "==============");
-    console.log(`Deploying ${contractName} contract...`);
+    console.log(`Deploying ${highlight(contractName, "yellow")} contract...`);
     const contract = await contractFactory.deploy();
     await contract.deployed();
-    const transaction = contract.deployTransaction;
+    const contract_Tx = contract.deployTransaction;
+    const contract_Rc = await contract_Tx.wait();
     const contractAddress = contract.address; 
-    console.log("  ✓ " + `${contractName} contract deployed to: ${contractAddress}`);
+    console.log(CHECK + `${highlight(contractName, "yellow")} contract deployed to: ${highlight(contractAddress, "purple")}`);
     
-    console.log(`Calling retrieve() to fetch stored value...`);
+    console.log(`Calling ${highlight("retrieve()", "gray")} to fetch stored value...`);
     const initialValue = await contract.retrieve();
-    console.log("  ✓ " + `Stored value is: ${initialValue}`);
+    console.log(CHECK + `Stored value is: ${highlight(initialValue, "blue")}`);
     
-    console.log(`Calling store(22) to set stored value to 22...`);
+    console.log(`Calling ${highlight("store(22)", "gray")} to set stored value to 22...`);
     const store_Tx = await contract.store(22);
-    await store_Tx.wait(); 
-    console.log(`Calling retrieve() to fetch stored value...`);
+    const store_Rc = await store_Tx.wait(); 
+    console.log(`Calling ${highlight("retrieve()", "gray")} to fetch new value...`);
     const newValue = await contract.retrieve();
-    console.log("  ✓ " + `Stored value is: ${newValue}`);
+    console.log(CHECK + `Stored value is: ${highlight(newValue, "blue")}`);
+    console.log();
+    
+    console.log("==============" + " TESTING " + "==============");
+    console.log("store_Tx: ", store_Tx);
+    console.log("store_Rc: ", store_Rc);
+    console.log();
+
+    console.log("==============" + " TRANSACTIONS " + "==============");
+    parseReceipt(contractName, contract_Rc);
+    parseReceipt("store", store_Rc);
     console.log();
     
     console.log("==============" + " LOGISTICS " + "==============");
     const deployerAddress = deployer.address; 
     let deployerBalance = await deployer.getBalance();
     deployerBalance = parseFloat(ethers.utils.formatUnits(deployerBalance, "ether")).toFixed(4);
-    console.log(`Deployer Address: ${deployerAddress}`);
-    console.log(`Deployer Balance: ${deployerBalance} ETH`);
-    console.log("Block: ", transaction.blockNumber);
-    console.log("Nonce: ", transaction.nonce); 
+    console.log(`Deployer Address: ${highlight(deployerAddress, "purple")}`);
+    console.log(`Deployer Balance: ${highlight(deployerBalance, "blue")} ETH`);
     console.log();
 }
 
