@@ -1,19 +1,5 @@
 const { ethers } = require("hardhat"); 
-
-const COLORS = {
-    "blue" : "\x1b[36m",
-    "yellow" : "\x1b[93m",
-    "purple" : "\x1b[95m",
-    "green" : "\x1b[32m",
-    "gray" : "\x1b[90m"
-}
-const RESET = "\x1b[0m";
-const CHECK = "  " + COLORS["green"] + "✓" + RESET + " "; 
-
-const highlight = (msg, color) => {
-    highlighted_msg = COLORS[color] + msg + RESET;
-    return highlighted_msg;
-}
+const { CHECK, highlight } = require("../helper_functions/Colors");
 
 const parseReceipt = (name, receipt) => {
     console.log(`Transaction Receipt for ${highlight(name, "yellow")} contract: `);
