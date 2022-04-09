@@ -6,6 +6,7 @@ const COLORS = {
     "gray" : "\x1b[90m",
     "reset" : "\x1b[0m"
 }
+
 const CHECK = "  " + COLORS["green"] + "✓" + COLORS["reset"] + " "; 
 
 function highlight(msg, color) {
@@ -13,10 +14,8 @@ function highlight(msg, color) {
     return highlighted_msg;
 }
 
-const EXPORT = {
-    "COLORS" : COLORS,
-    "CHECK" : CHECK,
-    "highlight" : highlight
+module.exports = { 
+    COLORS, 
+    CHECK, 
+    highlight
 };
-
-module.exports = { COLORS, CHECK, highlight };
