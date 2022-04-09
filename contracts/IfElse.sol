@@ -18,4 +18,5 @@ contract IfElse {
 // =======================
 // ||       Notes       ||
 // =======================
+// * Ternary syntax: (condition) ? (true) : (false)
 // * The expressions within regular() and ternary() are identical. 
