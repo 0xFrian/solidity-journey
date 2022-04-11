@@ -281,6 +281,41 @@
       "artifacts": [
         "IfElse"
       ]
+    },
+    "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\Loops.sol": {
+      "lastModificationDate": 1649631889732,
+      "contentHash": "3d0953a4a4a147e2349570ab03666ccf",
+      "sourceName": "contracts/Loops.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "Loops"
+      ]
     }
   }
 }
