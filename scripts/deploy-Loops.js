@@ -77,7 +77,7 @@ main()
 
 // ============== STATUS ==============
 // Deploying Loops contract...
-//   ✓ Loops contract deployed to: 0x2a6a9af3A848200557D438541dE37BBF46503c1D
+//   ✓ Loops contract deployed to: 0xCB8657ac79dABCf68BC1e6B73AD29F0A2C4254a2
 
 // ============== TESTING ==============
 // Calling get()...
@@ -87,42 +87,49 @@ main()
 // Calling get()...
 //   ✓ Upper Limit: 11
 // Calling forLoop()...
-//   ✓ Result: [object Object]
+//   ✓ Result:  [Sum : 66] , [ValueChanged : 0]
 // Calling whileLoop()...
-//   ✓ Result: [object Object]
+//   ✓ Result:  [Sum : 0]
 // Calling sum(11)...
-//   ✓ Result: [object Object]
+//   ✓ Result:  [Sum : 66]
 
 // ============== TRANSACTION RECEIPTS ==============
-// Transaction Receipt for Loops contract:
-//  * To: null, From: 0x0F49C3aB5dABF804a06B5762c7B4Ed145821c8D9
-//  * Contract Address: 0x2a6a9af3A848200557D438541dE37BBF46503c1D
-//  * Transaction Index: 4, Transaction Hash: 0x5b4fb9c7c9259765d5289712910f30cfce76565ffbcbc7e40697b569df14ee01
-//  * Block Number: 10482314, Block Hash: 0x840bfc4d23a7a24549fb53731c0e21c2ec713b5a2715bc1199147729dacc6e95
-//  * Status: 1, Gas Used: 286305
-//  * Logs:  Events:
-// Transaction Receipt for set contract:
-//  * To: 0x2a6a9af3A848200557D438541dE37BBF46503c1D, From: 0x0F49C3aB5dABF804a06B5762c7B4Ed145821c8D9
-//  * Contract Address: null
-//  * Transaction Index: 34, Transaction Hash: 0x39aadea304803014c2064512c4da80009c381e00fcf80641c3705adedafc6127
-//  * Block Number: 10482315, Block Hash: 0x764609455c57ea876debb194311b03ef14ba01b4dc62cc07427ad381f01169e4
-//  * Status: 1, Gas Used: 45015
-//  * Logs: 11 Events: ValueChanged
-// Transaction Receipt for forLoop contract:
-//  * To: 0x2a6a9af3A848200557D438541dE37BBF46503c1D, From: 0x0F49C3aB5dABF804a06B5762c7B4Ed145821c8D9
-//  * Contract Address: null
-//  * Transaction Index: 35, Transaction Hash: 0x020853ecf1ea5a4e1470d2a015be57d1a52e080655450d83da4e901bb8951849
-//  * Block Number: 10482316, Block Hash: 0xad53a21b8a1011cb99db6da96476104322bfabb15428bf07d73200509089aae1
-//  * Status: 1, Gas Used: 30522
-//  * Logs: 66 Events: Result
-// Transaction Receipt for whileLoop contract:
-//  * To: 0x2a6a9af3A848200557D438541dE37BBF46503c1D, From: 0x0F49C3aB5dABF804a06B5762c7B4Ed145821c8D9
-//  * Contract Address: null
-//  * Transaction Index: 16, Transaction Hash: 0x2838067c7b8d373d8b2330e61d9517674085bc957ab21eaf60ebe9ed32dc1a23
-//  * Block Number: 10482317, Block Hash: 0xd030e536c1c60a6b4ed90c3d65b73b1680ad0f52813e5d43588ec50d6fb69451
-//  * Status: 1, Gas Used: 30030
-//  * Logs: 66 Events: Result
+// Receipt for Loops contract:
+//   * To: null
+//   * From: 0x0F49C3aB5dABF804a06B5762c7B4Ed145821c8D9
+//   * Address: 0xCB8657ac79dABCf68BC1e6B73AD29F0A2C4254a2
+//   * Transaction Hash: 0xca5a80d4449d83082870fda45bd6634f804595b5a77b7c345e037b77ed887737
+//   * Gas Used: 289923
+//   * Event Logs:
+// Receipt for set transaction:
+//   * To: 0xCB8657ac79dABCf68BC1e6B73AD29F0A2C4254a2
+//   * From: 0x0F49C3aB5dABF804a06B5762c7B4Ed145821c8D9
+//   * Address: null
+//   * Transaction Hash: 0xcf53078a4e3c94bae42cfcc31d0d43345815ddce683972e4363ca6ee0e0d9e02
+//   * Gas Used: 45015
+//   * Event Logs:  [ValueChanged : 11]
+// Receipt for forLoop transaction:
+//   * To: 0xCB8657ac79dABCf68BC1e6B73AD29F0A2C4254a2
+//   * From: 0x0F49C3aB5dABF804a06B5762c7B4Ed145821c8D9
+//   * Address: null
+//   * Transaction Hash: 0xa42fde62c50a2ecbbc2f98ed698e4438ad05296e1476124cd8607f00bafb8600
+//   * Gas Used: 29742
+//   * Event Logs:  [Sum : 66] , [ValueChanged : 0]
+// Receipt for whileLoop transaction:
+//   * To: 0xCB8657ac79dABCf68BC1e6B73AD29F0A2C4254a2
+//   * From: 0x0F49C3aB5dABF804a06B5762c7B4Ed145821c8D9
+//   * Address: null
+//   * Transaction Hash: 0x617c6ddeda586e3519d924d6cb9a616638f52cee179486a25ba9fdb0c4bdd822
+//   * Gas Used: 24585
+//   * Event Logs:  [Sum : 0]
+// Receipt for sum transaction:
+//   * To: 0xCB8657ac79dABCf68BC1e6B73AD29F0A2C4254a2
+//   * From: 0x0F49C3aB5dABF804a06B5762c7B4Ed145821c8D9
+//   * Address: null
+//   * Transaction Hash: 0xdb392985f64a071aa75d11cdd8c150f98d46ec950d316d4cdf607e342674a5b9
+//   * Gas Used: 27169
+//   * Event Logs:  [Sum : 66]
 
 // ============== LOGISTICS ==============
 // Deployer Address: 0x0F49C3aB5dABF804a06B5762c7B4Ed145821c8D9
-// Deployer Balance: 134.1704 ETH
+// Deployer Balance: 134.1660 ETH
