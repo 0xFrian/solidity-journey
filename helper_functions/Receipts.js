@@ -1,8 +1,6 @@
 const { highlight } = require("./Colors");
 
 function parseReceipt(receipt) {
-    let customReceipt = {};
-
     let eventLogs = []
     let eventLogsString = [];
     if (receipt.events.length > 0 || receipt.logs.length > 0) {
@@ -17,13 +15,15 @@ function parseReceipt(receipt) {
         }
     }
 
-    customReceipt.to = receipt.to;
-    customReceipt.from = receipt.from;
-    customReceipt.address = receipt.contractAddress;
-    customReceipt.hash = receipt.transactionHash;
-    customReceipt.gasUsed = receipt.gasUsed;
-    customReceipt.eventLogs = eventLogs;
-    customReceipt.eventLogsString = eventLogsString;
+    customReceipt = {
+        to : receipt.to,
+        from : receipt.from,
+        address : receipt.contractAddress,
+        hash : receipt.transactionHash,
+        gasUsed : receipt.gasUsed,
+        eventLogs : eventLogs,
+        eventLogsString : eventLogsString
+    };
 
     return customReceipt;
 }
