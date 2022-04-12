@@ -316,6 +316,41 @@
       "artifacts": [
         "Loops"
       ]
+    },
+    "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\Errors.sol": {
+      "lastModificationDate": 1649731189327,
+      "contentHash": "fbc7a7fb5c10b6ea961990e3703b1803",
+      "sourceName": "contracts/Errors.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "Errors"
+      ]
     }
   }
 }
