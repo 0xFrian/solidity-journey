@@ -351,6 +351,41 @@
       "artifacts": [
         "Errors"
       ]
+    },
+    "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\FunctionModifiers.sol": {
+      "lastModificationDate": 1649979031260,
+      "contentHash": "b8a06ff94d98c637fa37164425624bfa",
+      "sourceName": "contracts/FunctionModifiers.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "FunctionModifiers"
+      ]
     }
   }
 }
