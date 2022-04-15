@@ -1,4 +1,4 @@
-h<h1 style="color: #BF616A">solidity-journey</h1>
+<h1 style="color: #BF616A">solidity-journey</h1>
 
 Journey from small potato to shadowy Solidity super coder
 
