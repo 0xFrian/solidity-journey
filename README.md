@@ -16,7 +16,7 @@ This repository is meant to help those learning Ethereum development but wanting
 
 Let's begin by creating a folder and then copying the contents of this repository into the newly created folder.
 
-```
+```PowerShell
 mkdir <folder-name>
 cd <folder-name>
 git clone https://github.com/0xFrian/solidity-journey.git .
@@ -26,7 +26,7 @@ git clone https://github.com/0xFrian/solidity-journey.git .
 
 Using **npm**, we download all the relevant packages/libraries for our development environment.
 
-```
+```PowerShell
 npm install --save-dev hardhat 
 npm install --save-dev @nomiclabs/hardhat-ethers 
 npm install --save-dev @nomiclabs/hardhat-waffle
@@ -41,7 +41,7 @@ Private keys are needed to create/sign transactions and API keys to broadcast tr
 
 Users can create free accounts on [Alchemy](https://www.alchemy.com/) and obtain an API key for testnets **Ropsten** and **Rinkeby**.
 
-```
+```PowerShell
 ROPSTEN_API_KEY= . . .
 RINKEBY_API_KEY= . . .
 PRIVATE_KEY= . . .
@@ -55,20 +55,20 @@ To check if everythign works, let's try deploying the **HelloWorld** contract on
 
 ##### Note: we are still in the root directory of this repository.
 
-```
+```PowerShell
 npx hardhat compile
 npx hardhat run .\scripts\deploy-HelloWorld.js
 ```
 
-Next, let's try deploying the **HelloWorld** contract onto **Ropsten** testnet by adding `--network ropsten`.
+Next, let's try deploying the **HelloWorld** contract onto **Ropsten** testnet by adding `--network ropsten`{:.PowerShell}.
 
 ##### Note: replace "ropsten" with "rinkeby" to deploy onto Rinkeby testnet
 
-```
+```PowerShell
 npx hardhat run .\scripts\deploy-HelloWorld.js --network ropsten
 ```
 
-This repository is designed such that the `scripts` folder contains **JavaScript** files that can be ran using the `npx hardhat run` command to deploy and interact with the **Solidity** smart contracts found in the `contracts` folder. Feel free to experiment!
+This repository is designed such that the `scripts` folder contains **JavaScript** files that can be ran using the `npx hardhat run`{:.PowerShell} command to deploy and interact with the **Solidity** smart contracts found in the `contracts` folder. Feel free to experiment!
 
 ## References
 
