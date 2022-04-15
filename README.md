@@ -37,7 +37,7 @@ npm install --save-dev dotenv
 
 ### Step 3 - Configure environmental variables 
 
-Private keys are needed to create/sign transactions and API keys to broadcast transactions.
+Private keys are needed to create/sign transactions and API keys to broadcast transactions. This project references the private key and API keys from the `info.env` file found in the `settings` folder.
 
 Users can create free accounts on [Alchemy](https://www.alchemy.com/) and obtain an API key for testnets **Ropsten** and **Rinkeby**.
 
