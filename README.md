@@ -6,9 +6,9 @@
 
 ## Purpose
 
-The **Remix IDE** is a popular introduction to Ethereum development designed to streamline the process of writing, deploying, and interacting with **Solidity** smart contracts.
+The **Remix IDE** is a popular introduction to Ethereum development as it is designed to streamline the process of writing, deploying, and interacting with **Solidity** smart contracts.
 
-Similarly, this repository demonstrates how to deploy and interact with Solidity smart contracts using **JavaScript**, **Ethers**, **Hardhat**, and **Alchemy**.
+This repository is meant to help those learning Ethereum development but wanting to move outside of **Remix IDE**. The content within the `scripts` folder demonstrates how to deploy and interact with **Solidity** smart contracts found in the `contracts` folder using **JavaScript**, **ethers.js**, **Hardhat**, and **Alchemy**.
 
 ## Quick Guide
 
@@ -21,6 +21,7 @@ mkdir <folder-name>
 cd <folder-name>
 git clone https://github.com/0xFrian/solidity-journey.git .
 ```
+
 ### Step 2 - Download dependencies
 
 Using **npm**, we download all the relevant packages/libraries for our development environment.
@@ -67,10 +68,14 @@ Next, let's try deploying the **HelloWorld** contract onto **Ropsten** testnet b
 npx hardhat run .\scripts\deploy-HelloWorld.js --network ropsten
 ```
 
-This repository is designed such that the **scripts** folder contains **JavaScript** files that can be ran using the `npx hardhat run` command to deploy and interact with the **Solidity** smart contracts found in the **contracts** folder. 
+This repository is designed such that the `scripts` folder contains **JavaScript** files that can be ran using the `npx hardhat run` command to deploy and interact with the **Solidity** smart contracts found in the `contracts` folder. Feel free to experiment!
 
 ## References
 
 Most of the content in the contracts directory is derived from [Solidity by Example](https://solidity-by-example.org/).
 
+## Contact
 
+Feel free to message me! :D
+- Twitter: frian_eth
+- Telegram: frian_eth
