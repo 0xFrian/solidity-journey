@@ -51,7 +51,7 @@ PRIVATE_KEY= . . .
 
 Finally, we have all that we need to run the **JavaScript** files and deploy our smart contracts! 
 
-To check if everythign works, let's try deploying the **HelloWorld** contract onto our **local Hardhat chain**.
+To check if everything works, let's try deploying the **HelloWorld** contract onto our **local Hardhat chain**.
 
 ##### Note: we are still in the root directory of this repository.
 
@@ -62,20 +62,22 @@ npx hardhat run .\scripts\deploy-HelloWorld.js
 
 Next, let's try deploying the **HelloWorld** contract onto **Ropsten** testnet by adding `--network ropsten`.
 
-##### Note: replace "ropsten" with "rinkeby" to deploy onto Rinkeby testnet
+##### Note: replace "ropsten" with "rinkeby" to deploy onto **Rinkeby** testnet
 
 ```
 npx hardhat run .\scripts\deploy-HelloWorld.js --network ropsten
 ```
 
-This repository is designed such that the `scripts` folder contains **JavaScript** files that can be ran using the `npx hardhat run` command to deploy and interact with the **Solidity** smart contracts found in the `contracts` folder. Feel free to experiment!
+This repository is designed such that the `scripts` folder contains **JavaScript** files that can be ran using the `npx hardhat run` command to deploy and interact with the **Solidity** smart contracts found in the `contracts` folder. 
+
+Feel free to experiment!
 
 ## References
 
-Most of the content in the contracts directory is derived from [Solidity by Example](https://solidity-by-example.org/).
+Most of the content in the `contracts` folder is derived from [Solidity by Example](https://solidity-by-example.org/).
 
 ## Contact
 
 Feel free to message me! :D
-- Twitter: frian_eth
-- Telegram: frian_eth
+- Twitter: [frian_eth](https://twitter.com/frian_eth)
+- Telegram: [frian_eth](https://t.me/frian_eth)
