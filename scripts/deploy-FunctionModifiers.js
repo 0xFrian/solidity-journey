@@ -38,10 +38,15 @@ async function main() {
     const v1 = await contract.getCount();
     console.log(CHECK + `Count: ${highlight(v1, "blue")}`);
     // setPause(true)
-    // console.log(`Calling ${highlight("setPause(true)", "yellow")}...`);
-    // const setPause0_Tx = await contract.setPause(true);
-    // const setPause0_Rc = parseReceipt(await setPause0_Tx.wait());
-    // console.log(CHECK + `Event Logs: ${setPause0_Rc.eventLogsString}`);
+    console.log(`Calling ${highlight("setPause(true)", "yellow")}...`);
+    const setPause0_Tx = await contract.setPause(true);
+    const setPause0_Rc = parseReceipt(await setPause0_Tx.wait());
+    console.log(CHECK + `Event Logs: ${setPause0_Rc.eventLogsString}`);
+    // setPause(false)
+    console.log(`Calling ${highlight("setPause(false)", "yellow")}...`);
+    const setPause1_Tx = await contract.setPause(false);
+    const setPause1_Rc = parseReceipt(await setPause1_Tx.wait());
+    console.log(CHECK + `Event Logs: ${setPause1_Rc.eventLogsString}`);
     // inc() ==> Error: VM Exception while processing transaction: reverted with reason string 'Contract is currently paused'
     // console.log(`Calling ${highlight("inc()", "yellow")}...`);
     // const inc1_Tx = await contract.inc();
@@ -90,7 +95,6 @@ async function main() {
     printReceipt(`${highlight("inc()", "yellow")} transaction`, inc0_Rc);
     // printReceipt(`${highlight("setPause(true)", "yellow")} transaction`, setPause0_Rc);
     // printReceipt(`${highlight("inc()", "yellow")} transaction`, inc1_Rc);
-
     console.log();
     
     heading("LOGISTICS");

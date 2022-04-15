@@ -5,7 +5,7 @@ contract FunctionModifiers {
     bool public paused;     // this variable serves to enable/disable access to this contract's functions
     uint public count;
 
-    event ContractStatusChanged(string status);
+    event ContractStatusChanged(string _status);
     event CountChanged(uint _count);
 
     // ==========================
@@ -39,10 +39,10 @@ contract FunctionModifiers {
         paused = _paused;
         // string memory msg = _paused ? "Contract paused" : "Contract resumed";
         if (_paused) {
-            emit ContractStatusChanged("Contract paused");
+            emit ContractStatusChanged("Contract is now paused");
         }
         else {
-            emit ContractStatusChanged("Contract resumed");
+            emit ContractStatusChanged("Contract is no longer paused");
         }
     }
 
