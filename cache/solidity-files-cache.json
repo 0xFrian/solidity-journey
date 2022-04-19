@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\Box.sol": {
-      "lastModificationDate": 1649404321223,
-      "contentHash": "d051c53b6985b888e01a441040788438",
+      "lastModificationDate": 1650384653531,
+      "contentHash": "47afbc52df5357953fe98797cb01d240",
       "sourceName": "contracts/Box.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -37,8 +37,8 @@
       ]
     },
     "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\HelloWorld.sol": {
-      "lastModificationDate": 1648128919529,
-      "contentHash": "fd66c088b88f85c5925dd0c09f55f143",
+      "lastModificationDate": 1650384755216,
+      "contentHash": "d6d9c22451af25fa6e170e78185d7eb1",
       "sourceName": "contracts/HelloWorld.sol",
       "solcConfig": {
         "version": "0.8.7",
@@ -72,8 +72,8 @@
       ]
     },
     "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\ValueTypes.sol": {
-      "lastModificationDate": 1649363330662,
-      "contentHash": "b5a605d26f2503606cab1fd541703c87",
+      "lastModificationDate": 1650384794638,
+      "contentHash": "1205240e30577f5a4b79f9585adc9d93",
       "sourceName": "contracts/ValueTypes.sol",
       "solcConfig": {
         "version": "0.8.7",
@@ -107,8 +107,8 @@
       ]
     },
     "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\BasicCounter.sol": {
-      "lastModificationDate": 1649360298835,
-      "contentHash": "0ba63b5864213b2db605a129e6d96fee",
+      "lastModificationDate": 1650384640181,
+      "contentHash": "741a2e5336c435665fbd839e08207a33",
       "sourceName": "contracts/BasicCounter.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -142,8 +142,8 @@
       ]
     },
     "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\IntroToFunctions.sol": {
-      "lastModificationDate": 1648329616266,
-      "contentHash": "8de4ded550eb62305ae21054fe13ac49",
+      "lastModificationDate": 1650384776672,
+      "contentHash": "bf833026e3c5f51683b22d55b532ce05",
       "sourceName": "contracts/IntroToFunctions.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -177,8 +177,8 @@
       ]
     },
     "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\DefaultValues.sol": {
-      "lastModificationDate": 1649361553193,
-      "contentHash": "b62d007e37deaa44a9b50861ba2533c3",
+      "lastModificationDate": 1650384735032,
+      "contentHash": "16b66ec2f39c89508b2a2c14e13d90c2",
       "sourceName": "contracts/DefaultValues.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -212,8 +212,8 @@
       ]
     },
     "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\Constants.sol": {
-      "lastModificationDate": 1649369093393,
-      "contentHash": "89d14d6bf19a00e4c636c737320c9f71",
+      "lastModificationDate": 1650384665699,
+      "contentHash": "7055817270766b242b365a6fd5a891ef",
       "sourceName": "contracts/Constants.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -248,8 +248,8 @@
       ]
     },
     "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\IfElse.sol": {
-      "lastModificationDate": 1649467576647,
-      "contentHash": "7d62dee87d87b942219d65363a71a011",
+      "lastModificationDate": 1650384609920,
+      "contentHash": "905f2488e476dab472e59015b9142fc4",
       "sourceName": "contracts/IfElse.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -283,8 +283,8 @@
       ]
     },
     "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\Loops.sol": {
-      "lastModificationDate": 1649631889732,
-      "contentHash": "3d0953a4a4a147e2349570ab03666ccf",
+      "lastModificationDate": 1650384785510,
+      "contentHash": "30ff454106d47f8621718bec257e6a46",
       "sourceName": "contracts/Loops.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -318,8 +318,8 @@
       ]
     },
     "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\Errors.sol": {
-      "lastModificationDate": 1649731189327,
-      "contentHash": "fbc7a7fb5c10b6ea961990e3703b1803",
+      "lastModificationDate": 1650384740593,
+      "contentHash": "5e746e1133389d8404dc3df05a0535dd",
       "sourceName": "contracts/Errors.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -353,8 +353,8 @@
       ]
     },
     "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\FunctionModifiers.sol": {
-      "lastModificationDate": 1649997484599,
-      "contentHash": "534df5620a91defa949f2280020aba0e",
+      "lastModificationDate": 1650385360774,
+      "contentHash": "d6840eb89461b0660ead537f45a7e88b",
       "sourceName": "contracts/FunctionModifiers.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -385,6 +385,41 @@
       ],
       "artifacts": [
         "FunctionModifiers"
+      ]
+    },
+    "C:\\Users\\brian\\Desktop\\Coding\\solidity-journey\\contracts\\Constructors.sol": {
+      "lastModificationDate": 1650385375782,
+      "contentHash": "69efae1985a48dc46bc2350d4044e79a",
+      "sourceName": "contracts/Constructors.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "Constructor"
       ]
     }
   }

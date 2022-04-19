@@ -15,7 +15,7 @@ contract Box {
 
     event ValueChanged(uint256 value); 
 
-    function store(uint256 value) public returns (uint256) {
+    function store(uint256 value) public {
         _value = value; 
         emit ValueChanged(value); 
     }
