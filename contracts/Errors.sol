@@ -1,6 +1,14 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.7;
 
+// ==============================================================================
+// This contract contains various events and functions to experiment with different error handling 
+// functions like require, revert, and assert.
+//
+// This contract is based on the Error contract from Solidity-By-Example: 
+//      - https://www.youtube.com/watch?v=59MRDldSItU&list=PLO5VPQH6OWdVQwpQfw9rZ67O6Pjfo6q-p&index=14
+// ==============================================================================
+
 contract Errors {
     uint public num = 123;
 

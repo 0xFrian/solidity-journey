@@ -1,6 +1,16 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.7;
 
+// ==============================================================================
+// This contract shows how to use Function Modifiers in 3 use-cases: 
+//      (1) whenNotPaused --> To check if the contract is currently paused to prevent executing function calls. 
+//      (2) cap --> To place an upper limit on how much count can be incremented or decremented by. 
+//      (3) sandwich --> To test executing code before and after the underlying function being modified is executed.
+//
+// This contract is based on the FunctionModifier contract from Solidity-By-Example: 
+//      - https://www.youtube.com/watch?v=b6FBWsz7VaI&list=PLO5VPQH6OWdVQwpQfw9rZ67O6Pjfo6q-p&index=15
+// ==============================================================================
+
 contract FunctionModifiers {
     bool public paused;     // this variable serves to enable/disable access to this contract's functions
     uint public count;
