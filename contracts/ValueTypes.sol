@@ -1,12 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.7;
 
-// ==============================================================================
+// SUMMARY
+// ================================================================================================================
 // This contract serves as a basic introduction to defining state variables of different types. 
 //
 // This contract is based on the ValueTypes contract from Solidity-By-Example: 
 //      - https://www.youtube.com/watch?v=8Tj-Th_S7NU&list=PLO5VPQH6OWdVQwpQfw9rZ67O6Pjfo6q-p&index=3
-// ==============================================================================
+// ================================================================================================================
 
 contract ValueTypes {
     bool public myBool = true; 
